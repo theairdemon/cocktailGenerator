@@ -66,7 +66,6 @@ class Liquor(BaseModel):
         if spirit is None:
             return v
 
-        # v might be an Enum instance; normalize to its string value
         value = v.value if isinstance(v, Enum) else str(v)
 
         if value not in SUBTYPE_MATCHES[spirit] and spirit != "OTHER":
@@ -90,9 +89,6 @@ class NonLiquor(BaseModel):
 
 
 if __name__ == "__main__":
-    # examples
-    # Liquor(name="Maker's Mark", spirit="WHISKEY", subtype="Bourbon")  # ok
-    # Liquor(name="Nope", spirit="WHISKEY", subtype="London Dry")  # error
     sample1 = {
         "name": "Maker's Mark",
         "spirit": "Whiskey",
