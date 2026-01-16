@@ -35,6 +35,8 @@ class Ingredient(BaseModel):
 
 
 class Cocktail(BaseModel):
+    name: str
+    description: Optional[str] = None
     ingredients: list[Ingredient]
     mixing: Mixing
     ice: Ice
@@ -43,6 +45,7 @@ class Cocktail(BaseModel):
 
 if __name__ == "__main__":
     sample1 = {
+        "name": "Dry Martini",
         "ingredients": [
             {
                 "is_liquor": True,
