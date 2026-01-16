@@ -1,0 +1,25 @@
+{
+  "title": "Hunter's Home Bar",
+  "bartender": "Hunter",
+  "liquors": [
+    {
+      "name": "Tanqueray",
+      "spirit": "Gin",
+      "subtype": "London Dry"
+    }
+  ],
+  "nonLiquors": [
+    {
+      "name": "Sweet Vermouth",
+      "type": "Vermouth"
+    },
+    {
+      "name": "Dry Vermouth",
+      "type": "Vermouth"
+    },
+    {
+      "name": "Campari",
+      "type": "Other"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "allCocktails": [
+    {
+      "name": "Dry Martini",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "name": "Tanqueray",
+            "spirit": "Gin",
+            "subtype": "London Dry"
+          },
+          "quantity": 2
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Dry Vermouth",
+            "type": "Vermouth"
+          },
+          "quantity": 0.5
+        }
+      ],
+      "mixing": "Stir",
+      "ice": "None",
+      "glass": "Coupe"
+    },
+    {
+      "name": "Negroni",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "name": "Tanqueray",
+            "spirit": "Gin",
+            "subtype": "London Dry"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Sweet Vermouth",
+            "type": "Vermouth"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Campari",
+            "type": "Other"
+          },
+          "quantity": 1
+        }
+      ],
+      "mixing": "Stir",
+      "ice": "Cube",
+      "glass": "Rocks"
+    }
+  ]
+}

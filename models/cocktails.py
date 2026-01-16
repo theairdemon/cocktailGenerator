@@ -28,9 +28,9 @@ class Mixing(str, Enum):
 
 
 class Ingredient(BaseModel):
-    is_liquor: bool
-    liquor_type: Optional[Liquor] = None
-    non_liquor_type: Optional[NonLiquor] = None
+    isLiquor: bool
+    liquorType: Optional[Liquor] = None
+    nonLiquorType: Optional[NonLiquor] = None
     quantity: float
 
 
@@ -43,13 +43,17 @@ class Cocktail(BaseModel):
     glass: Glass
 
 
+class LittleBlackBook(BaseModel):
+    allCocktails: list[Cocktail]
+
+
 if __name__ == "__main__":
     sample1 = {
         "name": "Dry Martini",
         "ingredients": [
             {
-                "is_liquor": True,
-                "liquor_type": {
+                "isLiquor": True,
+                "liquorType": {
                     "name": "Tanquery",
                     "spirit": "Gin",
                     "subtype": "London Dry",
@@ -57,8 +61,8 @@ if __name__ == "__main__":
                 "quantity": 2,
             },
             {
-                "is_liquor": False,
-                "non_liquor_type": {
+                "isLiquor": False,
+                "nonLiquorType": {
                     "name": "Dry Vermouth",
                     "type": "Vermouth",
                 },
