@@ -10,6 +10,7 @@ class Spirit(str, Enum):
     VODKA = "Vodka"
     RUM = "Rum"
     TEQUILA = "Tequila"
+    BRANDY = "Brandy"
     OTHER = "Other"
 
 
@@ -43,7 +44,14 @@ class TequilaSubtype(str, Enum):
     MEZCAL = "Mezcal"
 
 
-Subtype = Union[GinSubtype, WhiskeySubtype, VodkaSubtype]
+class BrandySubtype(str, Enum):
+    COGNAC = "Cognac"
+    APPLE = "Apple"
+
+
+Subtype = Union[
+    BrandySubtype, GinSubtype, WhiskeySubtype, VodkaSubtype, RumSubtype, TequilaSubtype
+]
 
 SUBTYPE_MATCHES: Dict[Spirit, Set[str]] = {
     Spirit.GIN: {s.value for s in GinSubtype},
@@ -51,6 +59,7 @@ SUBTYPE_MATCHES: Dict[Spirit, Set[str]] = {
     Spirit.VODKA: {s.value for s in VodkaSubtype},
     Spirit.RUM: {s.value for s in RumSubtype},
     Spirit.TEQUILA: {s.value for s in TequilaSubtype},
+    Spirit.BRANDY: {s.value for s in BrandySubtype},
 }
 
 

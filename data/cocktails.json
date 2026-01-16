@@ -6,24 +6,22 @@
         {
           "isLiquor": true,
           "liquorType": {
-            "name": "Tanqueray",
             "spirit": "Gin",
             "subtype": "London Dry"
           },
-          "quantity": 2
+          "quantity": 2.5
         },
         {
           "isLiquor": false,
           "nonLiquorType": {
-            "name": "Dry Vermouth",
-            "type": "Vermouth"
+            "name": "Dry Vermouth"
           },
           "quantity": 0.5
         }
       ],
       "mixing": "Stir",
       "ice": "None",
-      "glass": "Coupe"
+      "glass": "Martini"
     },
     {
       "name": "Negroni",
@@ -31,30 +29,646 @@
         {
           "isLiquor": true,
           "liquorType": {
-            "name": "Tanqueray",
-            "spirit": "Gin",
-            "subtype": "London Dry"
+            "spirit": "Gin"
           },
           "quantity": 1
         },
         {
           "isLiquor": false,
           "nonLiquorType": {
-            "name": "Sweet Vermouth",
-            "type": "Vermouth"
+            "name": "Sweet Vermouth"
           },
           "quantity": 1
         },
         {
           "isLiquor": false,
           "nonLiquorType": {
-            "name": "Campari",
-            "type": "Other"
+            "name": "Campari"
           },
           "quantity": 1
         }
       ],
       "mixing": "Stir",
+      "ice": "Cube",
+      "glass": "Rocks",
+      "garnish": "Orange peel"
+    },
+    {
+      "name": "Daiquiri",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Rum"
+          },
+          "quantity": 2
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lime Juice"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Simple Syrup"
+          },
+          "quantity": 1
+        }
+      ],
+      "mixing": "Shake",
+      "ice": "None",
+      "glass": "Coupe"
+    },
+    {
+      "name": "White Noise",
+      "ingredients": [
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Elderflower Liquor"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Cocchi Americano"
+          },
+          "quantity": 1.5
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Soda Water"
+          },
+          "quantity": 1
+        }
+      ],
+      "mixing": "Stir",
+      "ice": "Rocks",
+      "glass": "Highball",
+      "garnish": "Grapefruit twist"
+    },
+    {
+      "name": "Gold Rush",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Whiskey",
+            "subtype": "Bourbon"
+          },
+          "quantity": 1.5
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lemon Juice"
+          },
+          "quantity": 0.75
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Honey Syrup"
+          },
+          "quantity": 0.75
+        }
+      ],
+      "mixing": "Shake",
+      "ice": "None",
+      "glass": "Coupe"
+    },
+    {
+      "name": "Bee's Knees",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Gin"
+          },
+          "quantity": 1.5
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lemon Juice"
+          },
+          "quantity": 0.75
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Honey Syrup"
+          },
+          "quantity": 0.75
+        }
+      ],
+      "mixing": "Shake",
+      "ice": "None",
+      "glass": "Coupe"
+    },
+    {
+      "name": "Corpse Reviver #2",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Gin"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lillet Blanc"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Cointreau"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lemon Juice"
+          },
+          "quantity": 1
+        }
+      ],
+      "mixing": "Shake",
+      "ice": "None",
+      "glass": "Coupe"
+    },
+    {
+      "name": "Sidecar",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Brandy",
+            "subtype": "Cognac"
+          },
+          "quantity": 1.5
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Cointreau"
+          },
+          "quantity": 0.75
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lemon Juice"
+          },
+          "quantity": 0.75
+        }
+      ],
+      "mixing": "Shake",
+      "ice": "None",
+      "glass": "Coupe"
+    },
+    {
+      "name": "The Last Word",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Gin"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Green Chartreuse"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Maraschino Liqueur"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lime Juice"
+          },
+          "quantity": 1
+        }
+      ],
+      "mixing": "Shake",
+      "ice": "None",
+      "glass": "Coupe",
+      "garnish": "Brandied cherry"
+    },
+    {
+      "name": "Margarita",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Tequila"
+          },
+          "quantity": 2
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Triple Sec"
+          },
+          "quantity": 0.5
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lime Juice"
+          },
+          "quantity": 1
+        }
+      ],
+      "mixing": "Shake",
+      "ice": "Rocks",
+      "glass": "Rocks"
+    },
+    {
+      "name": "Boulevardier",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Whiskey",
+            "subtype": "Bourbon"
+          },
+          "quantity": 1.5
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Campari"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Sweet Vermouth"
+          },
+          "quantity": 1
+        }
+      ],
+      "mixing": "Stir",
+      "ice": "Cube",
+      "glass": "Rocks",
+      "garnish": "Orange twist"
+    },
+    {
+      "name": "Manhattan",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Whiskey",
+            "subtype": "Rye"
+          },
+          "quantity": 2
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Sweet Vermouth"
+          },
+          "quantity": 1
+        }
+      ],
+      "mixing": "Stir",
+      "ice": "None",
+      "glass": "Coupe",
+      "garnish": "Brandied cherry"
+    },
+    {
+      "name": "Cooperstown",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Gin",
+            "subtype": "London Dry"
+          },
+          "quantity": 1.5
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Sweet Vermouth"
+          },
+          "quantity": 0.75
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Dry Vermouth"
+          },
+          "quantity": 0.75
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Orange bitters"
+          },
+          "quantity": 3,
+          "units": "Dashes"
+        }
+      ],
+      "mixing": "Stir",
+      "ice": "None",
+      "glass": "Coupe",
+      "garnish": "Mint leaves"
+    },
+    {
+      "name": "Original Johnny Silverhand",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Tequila",
+            "subtype": "Anejo"
+          },
+          "quantity": 2
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Agave"
+          },
+          "quantity": 1,
+          "units": "Barspoon"
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Angostura bitter"
+          },
+          "quantity": 3,
+          "units": "Dashes"
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "beer"
+          },
+          "quantity": 1,
+          "units": "Splash"
+        }
+      ],
+      "mixing": "Stir",
+      "ice": "Rocks",
+      "glass": "Rocks",
+      "garnish": "Tabasco"
+    },
+    {
+      "name": "The French Intervention",
+      "description": "From 'The Drunken Botanist' book.",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Tequila",
+            "subtype": "Mezcal"
+          },
+          "quantity": 1.5
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lillet Blanc"
+          },
+          "quantity": 0.75
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Green Chartreuse"
+          },
+          "quantity": 1,
+          "units": "Barspoon"
+        }
+      ],
+      "mixing": "Shake",
+      "ice": "Rocks",
+      "glass": "Rocks",
+      "garnish": "Grapefruit peel"
+    },
+    {
+      "name": "Naked & Famous",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Tequila",
+            "subtype": "Mezcal"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Aperol"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Yellow Chartreuse"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lime Juice"
+          },
+          "quantity": 1
+        }
+      ],
+      "mixing": "Shake",
+      "ice": "None",
+      "glass": "Coupe"
+    },
+    {
+      "name": "Perfect White Negroni",
+      "description": "From the Wells gin bar in DC. The best white negroni I've ever had.",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Gin"
+          },
+          "quantity": 1.5
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Suze"
+          },
+          "quantity": 0.75
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lillet Blanc"
+          },
+          "quantity": 0.75
+        }
+      ],
+      "mixing": "Stir",
+      "ice": "Cube",
+      "glass": "Rocks"
+    },
+    {
+      "name": "Snoopy",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Whiskey",
+            "subtype": "Bourbon"
+          },
+          "quantity": 0.75
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Cointreau"
+          },
+          "quantity": 0.75
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Galliano"
+          },
+          "quantity": 0.75
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Aperol"
+          },
+          "quantity": 0.75
+        }
+      ],
+      "mixing": "Stir",
+      "ice": "Cube",
+      "glass": "Rocks"
+    },
+    {
+      "name": "French Pearl",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Gin"
+          },
+          "quantity": 2
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Absinthe"
+          },
+          "quantity": 0.25
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lime Juice"
+          },
+          "quantity": 0.75
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Simple Syrup"
+          },
+          "quantity": 0.75
+        }
+      ],
+      "mixing": "Shake",
+      "ice": "None",
+      "glass": "Coupe",
+      "garnish": "Mint leaves"
+    },
+    {
+      "name": "Vesper (007)",
+      "description": "From 'Casino Royale'; extremely strong!",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Gin"
+          },
+          "quantity": 3
+        },
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Vodka"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lillet Blanc"
+          },
+          "quantity": 0.5
+        }
+      ],
+      "mixing": "Shake",
+      "ice": "None",
+      "glass": "Martini",
+      "garnish": "Lemon twist"
+    },
+    {
+      "name": "Whiskey Sour",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Whiskey"
+          },
+          "quantity": 2
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Lemon Juice"
+          },
+          "quantity": 1
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Simple Syrup"
+          },
+          "quantity": 1
+        }
+      ],
+      "mixing": "Shake",
       "ice": "Cube",
       "glass": "Rocks"
     }

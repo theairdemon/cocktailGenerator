@@ -3,7 +3,7 @@ from typing import Optional
 
 from pydantic import BaseModel
 
-from models.liquors import Liquor, NonLiquor
+from models.liquors import Spirit, Subtype
 
 
 class Glass(str, Enum):
@@ -27,11 +27,22 @@ class Mixing(str, Enum):
     STIR = "Stir"
 
 
+class LiquorIngredient(BaseModel):
+    spirit: Spirit
+    subtype: Optional[Subtype] = None
+    name: Optional[str] = None
+
+
+class NonLiquorIngredient(BaseModel):
+    name: str
+
+
 class Ingredient(BaseModel):
     isLiquor: bool
-    liquorType: Optional[Liquor] = None
-    nonLiquorType: Optional[NonLiquor] = None
+    liquorType: Optional[LiquorIngredient] = None
+    nonLiquorType: Optional[NonLiquorIngredient] = None
     quantity: float
+    units: Optional[str] = None
 
 
 class Cocktail(BaseModel):
@@ -41,6 +52,7 @@ class Cocktail(BaseModel):
     mixing: Mixing
     ice: Ice
     glass: Glass
+    garnish: Optional[str] = None
 
 
 class LittleBlackBook(BaseModel):
@@ -54,7 +66,6 @@ if __name__ == "__main__":
             {
                 "isLiquor": True,
                 "liquorType": {
-                    "name": "Tanquery",
                     "spirit": "Gin",
                     "subtype": "London Dry",
                 },
@@ -64,7 +75,6 @@ if __name__ == "__main__":
                 "isLiquor": False,
                 "nonLiquorType": {
                     "name": "Dry Vermouth",
-                    "type": "Vermouth",
                 },
                 "quantity": 0.5,
             },
