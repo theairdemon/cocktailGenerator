@@ -1,15 +1,13 @@
 import json
 from pathlib import Path
 
-from pydantic import ValidationError
-
-from models.cocktails import Cocktail, Ice, LittleBlackBook
+from models.cocktails import Cocktail, Ice, RecipeBook
 
 
-def build_cocktail_book() -> LittleBlackBook:
+def build_cocktail_book() -> RecipeBook:
     data = json.loads(Path("data/cocktails.json").read_text())
 
-    return LittleBlackBook.model_validate(data)
+    return RecipeBook.model_validate(data)
 
 
 def print_recipe(cocktail: Cocktail) -> str:

@@ -55,7 +55,7 @@ class Cocktail(BaseModel):
     garnish: Optional[str] = None
 
 
-class LittleBlackBook(BaseModel):
+class RecipeBook(BaseModel):
     allCocktails: list[Cocktail]
 
 
