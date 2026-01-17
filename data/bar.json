@@ -36,6 +36,11 @@
       "name": "Malibu",
       "spirit": "Rum",
       "subtype": "Coconut"
+    },
+    {
+      "name": "Botanist",
+      "spirit": "Gin",
+      "subtype": "Other"
     }
   ],
   "nonLiquors": [
@@ -109,6 +114,22 @@
     },
     {
       "name": "Absinthe",
+      "type": "Other"
+    },
+    {
+      "name": "Maraschino Liqueur",
+      "type": "Other"
+    },
+    {
+      "name": "Peach Schnapps",
+      "type": "Other"
+    },
+    {
+      "name": "Triple Sec",
+      "type": "Other"
+    },
+    {
+      "name": "Galliano",
       "type": "Other"
     }
   ]
