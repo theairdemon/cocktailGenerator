@@ -17,6 +17,7 @@ class Spirit(str, Enum):
 class GinSubtype(str, Enum):
     LONDON_DRY = "London Dry"
     OLD_TOM = "Old Tom"
+    OTHER = "Other"
 
 
 class WhiskeySubtype(str, Enum):
@@ -47,6 +48,7 @@ class TequilaSubtype(str, Enum):
 class BrandySubtype(str, Enum):
     COGNAC = "Cognac"
     APPLE = "Apple"
+    OTHER = "Other"
 
 
 Subtype = Union[

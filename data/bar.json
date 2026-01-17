@@ -6,6 +6,36 @@
       "name": "Tanqueray",
       "spirit": "Gin",
       "subtype": "London Dry"
+    },
+    {
+      "name": "Hendrick's Grand Cabaret",
+      "spirit": "Gin",
+      "subtype": "Other"
+    },
+    {
+      "name": "Wild Turkey Rare Breed",
+      "spirit": "Whiskey",
+      "subtype": "Bourbon"
+    },
+    {
+      "name": "Vida",
+      "spirit": "Tequila",
+      "subtype": "Mezcal"
+    },
+    {
+      "name": "Sons of Liberty Barrel-Rested",
+      "spirit": "Gin",
+      "subtype": "Other"
+    },
+    {
+      "name": "Gunpowder",
+      "spirit": "Gin",
+      "subtype": "Other"
+    },
+    {
+      "name": "Malibu",
+      "spirit": "Rum",
+      "subtype": "Coconut"
     }
   ],
   "nonLiquors": [
@@ -19,6 +49,66 @@
     },
     {
       "name": "Campari",
+      "type": "Other"
+    },
+    {
+      "name": "Cointreau",
+      "type": "Other"
+    },
+    {
+      "name": "Aperol",
+      "type": "Other"
+    },
+    {
+      "name": "Sweet Vermouth",
+      "type": "Vermouth"
+    },
+    {
+      "name": "Dry Vermouth",
+      "type": "Vermouth"
+    },
+    {
+      "name": "Lemon Juice",
+      "type": "Sour"
+    },
+    {
+      "name": "Lime Juice",
+      "type": "Sour"
+    },
+    {
+      "name": "Simple Syrup",
+      "type": "Sweet"
+    },
+    {
+      "name": "Honey Syrup",
+      "type": "Sweet"
+    },
+    {
+      "name": "Campari",
+      "type": "Other"
+    },
+    {
+      "name": "Green Chartreuse",
+      "type": "Other"
+    },
+    {
+      "name": "Yellow Chartreuse",
+      "type": "Other"
+    },
+    {
+      "name": "Suze",
+      "type": "Other"
+    },
+    {
+      "name": "Lillet Blanc",
+      "type": "Other"
+    },
+    {
+      "name": "Elderflower Liqueur",
+      "type": "Other"
+    },
+    {
+      "name": "Absinthe",
       "type": "Other"
     }
   ]
