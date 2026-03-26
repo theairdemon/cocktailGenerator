@@ -1,10 +1,10 @@
-from enum import Enum
+from enum import Enum, StrEnum
 from typing import Dict, Set, Union
 
 from pydantic import BaseModel, field_validator
 
 
-class Spirit(str, Enum):
+class Spirit(StrEnum):
     GIN = "Gin"
     WHISKEY = "Whiskey"
     VODKA = "Vodka"
@@ -14,38 +14,38 @@ class Spirit(str, Enum):
     OTHER = "Other"
 
 
-class GinSubtype(str, Enum):
+class GinSubtype(StrEnum):
     LONDON_DRY = "London Dry"
     OLD_TOM = "Old Tom"
     OTHER = "Other"
 
 
-class WhiskeySubtype(str, Enum):
+class WhiskeySubtype(StrEnum):
     BOURBON = "Bourbon"
     RYE = "Rye"
     SCOTCH = "Scotch"
 
 
-class VodkaSubtype(str, Enum):
+class VodkaSubtype(StrEnum):
     CLASSIC = "Classic"
     FLAVORED = "Flavored"
 
 
-class RumSubtype(str, Enum):
+class RumSubtype(StrEnum):
     WHITE = "White"
     AGED = "Aged"
     SPICED = "Spiced"
     COCONUT = "Coconut"
 
 
-class TequilaSubtype(str, Enum):
+class TequilaSubtype(StrEnum):
     BLANCO = "Blanco"
     REPOSADO = "Reposado"
     ANEJO = "Anejo"
     MEZCAL = "Mezcal"
 
 
-class BrandySubtype(str, Enum):
+class BrandySubtype(StrEnum):
     COGNAC = "Cognac"
     APPLE = "Apple"
     OTHER = "Other"

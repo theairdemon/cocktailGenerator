@@ -6,8 +6,14 @@ from models.cocktails import Cocktail, Ice, RecipeBook
 
 def build_cocktail_book() -> RecipeBook:
     data = json.loads(Path("data/cocktails.json").read_text())
-
-    return RecipeBook.model_validate(data)
+    allCocktails = RecipeBook.model_validate(data).allCocktails
+    uniqueCocktailNames = set()
+    uniqueCocktails = []
+    for cocktail in allCocktails:
+        if cocktail.name not in uniqueCocktailNames:
+            uniqueCocktailNames.add(cocktail.name)
+            uniqueCocktails.append(cocktail)
+    return RecipeBook(allCocktails=uniqueCocktails)
 
 
 def print_recipe(cocktail: Cocktail) -> str:

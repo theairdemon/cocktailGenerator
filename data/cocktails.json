@@ -671,6 +671,36 @@
       "mixing": "Shake",
       "ice": "Cube",
       "glass": "Rocks"
+    },
+    {
+      "name": "Old Fashioned",
+      "ingredients": [
+        {
+          "isLiquor": true,
+          "liquorType": {
+            "spirit": "Whiskey"
+          },
+          "quantity": 2
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Simple Syrup"
+          },
+          "quantity": 0.25
+        },
+        {
+          "isLiquor": false,
+          "nonLiquorType": {
+            "name": "Bitters"
+          },
+          "quantity": 2,
+          "units": "Dashes"
+        }
+      ],
+      "mixing": "Stir",
+      "ice": "Cube",
+      "glass": "Rocks"
     }
   ]
 }
