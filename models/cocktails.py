@@ -1,4 +1,4 @@
-from enum import Enum
+from enum import Enum, StrEnum
 from typing import Optional
 
 from pydantic import BaseModel
@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from models.liquors import Spirit, Subtype
 
 
-class Glass(str, Enum):
+class Glass(StrEnum):
     COUPE = "Coupe"
     MARTINI = "Martini"
     ROCKS = "Rocks"
@@ -14,7 +14,7 @@ class Glass(str, Enum):
     HIGHBALL = "Highball"
 
 
-class Ice(str, Enum):
+class Ice(StrEnum):
     NONE = "None"
     ROCKS = "Rocks"
     CUBE = "Cube"
@@ -22,7 +22,7 @@ class Ice(str, Enum):
     CRUSHED = "Crushed"
 
 
-class Mixing(str, Enum):
+class Mixing(StrEnum):
     SHAKE = "Shake"
     STIR = "Stir"
 
