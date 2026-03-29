@@ -2,10 +2,7 @@ from pydantic import ValidationError
 
 from models.liquors import Liquor, NonLiquor
 from services.bar_storage import add_item, load_bar, save_bar
-
-
-def ask(prompt: str) -> str:
-    return input(prompt).strip()
+from utils.utils import ask
 
 
 def ask_yes_no(prompt: str) -> bool:
